@@ -11,6 +11,7 @@ app.use('/api/users', require('./server/routes/api/users'));
 app.use('/api/auth', require('./server/routes/api/auth'));
 app.use('/api/profile', require('./server/routes/api/profile'));
 app.use('/api/posts', require('./server/routes/api/posts'));
+app.use('/api/notes', require('./server/routes/api/notes')); // Bu satırı eklediğinizden emin olun
 
 // Serve static assets in production
 if (process.env.NODE_ENV === 'production') {
@@ -22,6 +23,6 @@ if (process.env.NODE_ENV === 'production') {
   });
 }
 
-const PORT = parseInt(Math.random() * 4000 + 1000);
+const PORT = 5025; // Portu sabitledik
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
