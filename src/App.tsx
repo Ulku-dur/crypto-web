@@ -11,8 +11,10 @@ import theme from "./theme";
 function App() {
   const routing = useRoutes(Router);
   return (
-  
-  );
+      <ThemeProvider theme={theme}>
+      <div className="App">{routing}</div>
+    </ThemeProvider>
+   );
 }
 
 export default App;
