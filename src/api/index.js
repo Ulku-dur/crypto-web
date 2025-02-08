@@ -50,4 +50,14 @@ export const getChatsByLink = async (chatlink, username) => {
     };
   }
 };
+export const getIPByLink = async chatlink => {
+  try {
+    const res = await api.get(`/ip/${chatlink}`);
+    return res.data.clientaddress;
+  } catch (error) {
+    console.error("Error to get ip address.");
+    return "";
+  }
+};
+
 
