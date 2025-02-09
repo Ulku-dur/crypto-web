@@ -50,19 +50,7 @@ export default function Notifications() {
             flexDirection: "column",
           }}
         >
-          {severity === "success" ? (
-            <Box
-              sx={{
-                marginTop: "10px",
-                background: "#ddf4de",
-                boxShadow: "0px 0px 30px rgba(55, 55, 79, 0.05)",
-                borderRadius: "7px",
-                display: "flex",
-                justifyContent: "space-around",
-                alignItems: "center",
-                padding: "8px 20px 8px 20px",
-                zIndex: 99999,
-              }}
+          
             >
               <Box
                 sx={{
