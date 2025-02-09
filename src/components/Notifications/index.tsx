@@ -183,7 +183,19 @@ export default function Notifications() {
                   {msg}
                 </Box>
               </Box>
-            
+              <IconButton onClick={handleCloseClick} size="small">
+                <CloseIcon
+                  sx={{
+                    color: "#444444",
+                    width: "18px",
+                    height: "18px",
+                    cursor: "pointer",
+                    "& .MuiIconButton-root:hover": {
+                      backgroundColor: "transparent",
+                    },
+                  }}
+                />
+              </IconButton>
             </Box>
           )}
         </Box>
