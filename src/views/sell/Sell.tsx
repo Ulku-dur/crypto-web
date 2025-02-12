@@ -221,6 +221,11 @@ const Sell = () => {
               >
                 Price
               </Typography>
+               <Typography
+                sx={{ fontSize: "20px", color: "#162f38", fontWeight: 400 }}
+              >
+                1 Property Token name = Given Crypto name Quantity
+              </Typography>
              
             </Box>
           </Box>
