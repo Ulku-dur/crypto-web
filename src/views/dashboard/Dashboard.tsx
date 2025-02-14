@@ -23,6 +23,7 @@ import { useNavigate } from "react-router-dom";
 
 
 
+
   const handleSearchSubmit = (evt: any) => {
     if (evt.key === "Enter") dispatch(getAllBlogs({ search: search, page: 1 }));
   };
