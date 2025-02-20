@@ -224,7 +224,7 @@ const Dashboard = () => {
               <TableRow
                 hover
                 sx={{
-                  cursor: "pointer",
+                  
                   "& td": {
                     padding: "0px 5px",
                     borderRight: "2px solid #00dbe3",
