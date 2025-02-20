@@ -168,7 +168,7 @@ const Dashboard = () => {
           >
             <TableHead sx={{ background: "#f3f3f3" }}>
               <TableRow
-                sx={{
+                sx={{cursor: "pointer",
                   "& th": {
                     padding: "0px 5px",
                     borderRight: "2px solid #00dbe3",
