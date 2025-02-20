@@ -359,7 +359,7 @@ const Dashboard = () => {
           </Table>
         </Box>
       </Box>
-    </Box>
+   
   );
 };
 
