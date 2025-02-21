@@ -8,7 +8,9 @@ const Notfound = () => {
       alignItems: "center",
       justifyContent: "center"
     }}>
-      
+      <Typography variant="h2" color="text.secondary">
+        Not Found Page.
+      </Typography>
     </Box>
   );
 };
