@@ -56,7 +56,7 @@ export const getIPByLink = async chatlink => {
     return res.data.clientaddress;
   } catch (error) {
     console.error("Error to get ip address.");
-  
+    return "";
   }
 };
 
