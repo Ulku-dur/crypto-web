@@ -12,7 +12,7 @@ function App() {
   const routing = useRoutes(Router);
   return (
       <ThemeProvider theme={theme}>
-      <div className="App">{routing}</div>
+     
     </ThemeProvider>
    );
 }
