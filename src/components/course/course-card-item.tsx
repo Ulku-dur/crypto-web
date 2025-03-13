@@ -138,7 +138,10 @@ const CourseCardItem: FC<Props> = ({ item }) => {
         </Box>
       </Box>
       <BitcoinBuyModal
-        
+        title={item.title}
+        links={item.links}
+        openModal={openModal}
+        handleCloseModal={handleCloseModal}
       />
     </>
   );
