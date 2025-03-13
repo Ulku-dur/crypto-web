@@ -34,7 +34,10 @@ const CourseCardItem: FC<Props> = ({ item }) => {
           position: "relative",
           transition: (theme) => theme.transitions.create(["box-shadow"]),
           "&:hover": {
-           
+              "& .method-logo": {
+              background: "#127C71",
+              boxShadow: 2,
+              transition: "all 0.5s",
             },
             "& .method-icon": {
               color: "white",
