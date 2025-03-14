@@ -13,7 +13,8 @@ const CustomUserSelect = styled((props: any) =>
     color: theme.palette.text.secondary,
     opacity: "1"
   },
-   
+   "& .Mui-disabled .MuiOutlinedInput-notchedOutline": {
+    borderColor: theme.palette.grey[200]
   }
  }));
 
