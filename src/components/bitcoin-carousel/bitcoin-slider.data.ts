@@ -211,10 +211,7 @@ export const data = [
         agen: "Bit it",
         link: "https://bitit.io/",
       },
-      {
-        agen: "Bitcoin ATMs",
-        link: "https://bitcoindepot.com/",
-      },
+      ,
       {
         agen: "Bitcoin ATM Radar",
         link: "https://coinatmradar.com/",
