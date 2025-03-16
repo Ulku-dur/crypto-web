@@ -17,7 +17,11 @@ const style = {
   p: 4,
 };
 
-
+interface Props {
+  text: string;
+  openModal: boolean;
+  handleAction: (status: boolean) => void;
+}
 
 const ConfirmModal = ({ text, openModal, handleAction }: Props) => {
   return (
